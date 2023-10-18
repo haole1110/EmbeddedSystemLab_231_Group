@@ -1,0 +1,10 @@
+-- IDF_TARGET is not set, guessed 'esp32' from sdkconfig 'C:/Users/Admin/Desktop/Document/231/Hệ thống nhúng/Lab/Lab/Lab1/VSCode/hello_world/sdkconfig'
+-- Found Git: C:/Espressif/tools/idf-git/2.39.2/cmd/git.exe (found version "2.39.2.windows.1") 
+-- ccache will be used for faster recompilation
+-- The C compiler identification is GNU 12.2.0
+-- The CXX compiler identification is GNU 12.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Espressif/tools/xtensa-esp32-elf/esp-12.2.0_20230208/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Admin/Desktop/Document/231/Hệ thống nhúng/Lab/Lab/Lab1/VSCode/hello_world/build/CMakeFiles/CMakeOutput.log".
