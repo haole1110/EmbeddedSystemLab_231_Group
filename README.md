@@ -32,9 +32,12 @@
 ![monitor](https://github.com/haole1110/EmbeddedSystemLab_231_Group7/assets/78683929/0f8f32ef-fc25-459e-919c-4b82f1bc53ac)
 
 ### Đối với VSCode IDE
-1. Cài đặt môi trường như yêu cầu (các bước cài đặt trong file báo cáo)
+1. Cài đặt môi trường như yêu cầu (các bước cài đặt trong file báo cáo, bỏ qua các bước gõ lệnh vào terminal)
 2. Clone project về máy tính local
 3. Cắm mạch vào máy tính
-4. Mở project trong VSCode, gõ lệnh "idf.py -p (PORT) flash monitor" để nạp code vào mạch với (PORT) là cổng COM tương ứng
+4. Mở project trong VSCode, chỉ đường dẫn đến folder của project trong terminal
+5. Gõ lệnh "idf.py fullclean" để xóa đường dẫn cũ build chương trình của project.
+6. Gõ lệnh "idf.py -p (PORT) flash monitor" vào terminal để nạp code vào mạch với (PORT) là cổng COM tương ứng
 
+![result](https://github.com/haole1110/EmbeddedSystemLab_231_Group7/assets/78683929/40e34d9e-1254-47ae-ac23-15ffc8778491)
 
