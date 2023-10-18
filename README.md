@@ -6,9 +6,9 @@
     + Tìm hiểu lí thuyết về FreeRTOS, FreeRTOS Task, Life cycle của một task, các phương thức làm việc với task trong ngôn ngữ lập trình và Scheduling.
     + Làm quen với GPIO trên vi điều khiển ESP32.
 - Thực hiện:
-    + Áp dụng lí thuyết vừa tìm hiểu hiện thực một chương trình bao gồm hai task và sử dụng FreeRTOS để lập lịch quản lí task:
-        . Task 1: hoạt động tuần hoàn (cyclic task) theo một chu kì nhất định.
-        . Task 2: thực hiện hành động khi nhận tín hiệu từ nút nhấn (acyclic task)
+    + Áp dụng lí thuyết vừa tìm hiểu hiện thực một chương trình bao gồm hai task và sử dụng FreeRTOS để lập lịch quản lí task
+    + Task 1: hoạt động tuần hoàn (cyclic task) theo một chu kì nhất định.
+    + Task 2: thực hiện hành động khi nhận tín hiệu từ nút nhấn (acyclic task)
 
 ## Tính năng 
 
