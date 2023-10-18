@@ -17,7 +17,7 @@
 - IDE sử dụng: Arduino IDE (folder Arduino) và VSCode (folder VSCode)
 - Hệ điều hành: Window
 - Yêu cầu:
-    + Arduino IDE: cài đặt thư viện "esp32 by Espressif Systems
+    + Arduino IDE: cài đặt thư viện "esp32 by Espressif Systems"
     + VSCode IDE: cài đặt công cụ ESP-IDF và nhúng vào terminal bằng config User Setting trong VSCode
 
 ## Cài đặt
