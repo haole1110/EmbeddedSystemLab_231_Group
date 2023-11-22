@@ -1,2 +1,2 @@
-idf_component_register(SRCS "Toggle_Led_By_Button.c"
+idf_component_register(SRCS "hello_world.c"
                     INCLUDE_DIRS ".")

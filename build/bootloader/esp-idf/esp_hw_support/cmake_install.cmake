@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab2/Toggle_Led_By_Button/build/bootloader/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
+  include("C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab4/FreeRTOS_Scheduling/build/bootloader/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
 endif()
 

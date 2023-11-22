@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab2/Toggle_Led_By_Button/main
+# Install script for directory: C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab4/FreeRTOS_Scheduling/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/Toggle_Led_By_Button")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/hello_world")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

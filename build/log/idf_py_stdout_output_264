@@ -1,0 +1,58 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cmd.exe /C "cd /D C:\Users\Admin\Desktop\Document\231\Embedded_System\Lab\Lab\Lab4\FreeRTOS_Scheduling\build\bootloader\esp-idf\esptool_py && C:\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.1.1/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab4/FreeRTOS_Scheduling/build/bootloader/bootloader.bin"
+Bootloader binary size 0x6810 bytes. 0x7f0 bytes (7%) free.
+[2/8] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/hello_world.c.obj
+In file included from C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab4/FreeRTOS_Scheduling/main/hello_world.c:7:
+C:/Espressif/frameworks/esp-idf-v5.1.1/components/spi_flash/include/esp_spi_flash.h:6:2: warning: #warning esp_spi_flash.h is deprecated, please use spi_flash_mmap.h instead [-Wcpp]
+    6 | #warning esp_spi_flash.h is deprecated, please use spi_flash_mmap.h instead
+      |  ^~~~~~~
+[3/8] Linking C static library esp-idf\main\libmain.a
+[4/8] Generating ld/sections.ld
+[5/8] Linking CXX executable hello_world.elf
+[6/8] Generating binary image from built executable
+esptool.py v4.7.dev1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab4/FreeRTOS_Scheduling/build/hello_world.bin
+[7/8] cmd.exe /C "cd /D C:\Users\Admin\Desktop\Document\231\Embedded_System\Lab\Lab\Lab4\FreeRTOS_Scheduling\build\esp-idf\esptool_py && C:\Espressif\python_env\idf5.1_py3.11_env\Scripts\python.exe C:/Espressif/frameworks/esp-idf-v5.1.1/components/partition_table/check_sizes.py --offset 0x8000 partition --type app C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab4/FreeRTOS_Scheduling/build/partition_table/partition-table.bin C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab4/FreeRTOS_Scheduling/build/hello_world.bin"
+hello_world.bin binary size 0x2b030 bytes. Smallest app partition is 0x100000 bytes. 0xd4fd0 bytes (83%) free.
+[7/8] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.1.1\components\esptool_py && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_PATH=C:/Espressif/frameworks/esp-idf-v5.1.1 -D SERIAL_TOOL=C:/Espressif/python_env/idf5.1_py3.11_env/Scripts/python.exe;;C:/Espressif/frameworks/esp-idf-v5.1.1/components/esptool_py/esptool/esptool.py;--chip;esp32 -D SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args -D WORKING_DIRECTORY=C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab4/FreeRTOS_Scheduling/build -P C:/Espressif/frameworks/esp-idf-v5.1.1/components/esptool_py/run_serial_tool.cmake"
+esptool.py --chip esp32 -p COM8 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 hello_world.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.dev1
+Serial port COM8
+Connecting.........
+Chip is ESP32-D0WD-V3 (revision v3.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 24:d7:eb:14:10:80
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x0003bfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26640 bytes to 16691...
+Writing at 0x00001000... (50 %)
+Writing at 0x0000768e... (100 %)
+Wrote 26640 bytes (16691 compressed) at 0x00001000 in 0.6 seconds (effective 353.4 kbit/s)...
+Hash of data verified.
+Compressed 176176 bytes to 98048...
+Writing at 0x00010000... (16 %)
+Writing at 0x0001c131... (33 %)
+Writing at 0x00021b0b... (50 %)
+Writing at 0x000273d8... (66 %)
+Writing at 0x0002d6c0... (83 %)
+Writing at 0x0003527b... (100 %)
+Wrote 176176 bytes (98048 compressed) at 0x00010000 in 2.6 seconds (effective 542.3 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.1 seconds (effective 230.7 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
