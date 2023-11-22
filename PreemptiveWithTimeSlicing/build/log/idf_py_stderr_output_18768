@@ -1,0 +1,59 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM8 instead...[0m
+[0;33m--- idf_monitor on \\.\COM8 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400810e8: call_start_cpu1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/port/cpu_start.c:154
+[0m
+[0;33m0x400d6eaf: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7036: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082981: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400d542b: vTask1 at C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab3/PreemptiveWithoutTimeSlicing/main/FreeRTOS_Scheduling.c:47 (discriminator 2)
+[0m
+[0;33m0x40087c15: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d6eaf: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7036: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082981: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400d5469: vTask2 at C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab3/PreemptiveWithoutTimeSlicing/main/FreeRTOS_Scheduling.c:64
+[0m
+[0;33m0x40087c15: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d6eaf: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7036: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082981: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400d54a1: vTask2 at C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab3/PreemptiveWithoutTimeSlicing/main/FreeRTOS_Scheduling.c:64 (discriminator 2)
+[0m
+[0;33m0x40087c15: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d6eaf: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7036: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082981: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400d53f9: vTask1 at C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab3/PreemptiveWithoutTimeSlicing/main/FreeRTOS_Scheduling.c:47
+[0m
+[0;33m0x40087c15: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0;33m0x400d6eaf: task_wdt_timeout_handling at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:461 (discriminator 3)
+[0m
+[0;33m0x400d7036: task_wdt_isr at C:/Espressif/frameworks/esp-idf-v5.1.1/components/esp_system/task_wdt/task_wdt.c:585
+[0m
+[0;33m0x40082981: _xt_lowint1 at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S:1236
+[0m
+[0;33m0x400d5496: vTask2 at C:/Users/Admin/Desktop/Document/231/Embedded_System/Lab/Lab/Lab3/PreemptiveWithoutTimeSlicing/main/FreeRTOS_Scheduling.c:66
+[0m
+[0;33m0x40087c15: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.1.1/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:162
+[0m
+[0m
